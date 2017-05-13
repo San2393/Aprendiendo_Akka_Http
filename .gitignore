@@ -1,0 +1,25 @@
+*.log
+
+# sbt specific
+.cache
+.lib/
+dist/*
+target/
+lib_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.ensime
+.ensime_cache/
+.scala_dependencies
+.worksheet
+
+# ENSIME specific
+.idea
+.iml
+project/project/
+src/main/
+src/test/java/
+src/test/resources/
+src/test/scala-2.12/
